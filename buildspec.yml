@@ -4,10 +4,10 @@ phases:
         runtime-versions:
             nodejs: 10
         commands: 
-            - 'npm install -g gatsby'
+            - 'npm install -g gatsby react react-dom typescript'
     pre_build:
         commands:
-            - 'npm install --no-audit' 
+            - 'npm install' 
             - 'npm run test'   
     build:
         commands:
