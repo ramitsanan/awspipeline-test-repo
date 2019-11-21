@@ -7,10 +7,10 @@ phases:
             - 'npm install -g gatsby react react-dom typescript'
     pre_build:
         commands:
-            - 'npm run test'   
+            - 'npm install'   
     build:
         commands:
-            - 'npm install'
+            - 'npm run build'
     post_build:
         commands:
             - 'aws s3 sync "public" "s3://prodigy-githubassrc-test-bucket"'
