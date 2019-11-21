@@ -10,7 +10,7 @@ phases:
             - 'npm run test'   
     build:
         commands:
-            - 'npm run build'
+            - 'npm install'
     post_build:
         commands:
             - 'aws s3 sync "public" "s3://prodigy-githubassrc-test-bucket"'
