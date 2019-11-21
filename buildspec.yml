@@ -7,7 +7,6 @@ phases:
             - 'npm install -g gatsby react react-dom typescript'
     pre_build:
         commands:
-            - 'npm install' 
             - 'npm run test'   
     build:
         commands:
