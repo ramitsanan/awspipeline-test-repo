@@ -1,7 +1,7 @@
 import React from "react"
 import styled from "styled-components"
 import Button from "../ui/Button"
-// import Paragraph from "../ui/Paragraph"
+import Paragraph from "../ui/Paragraph"
 
 const StyledBlogCard = styled.div`
 	width: 100%;
