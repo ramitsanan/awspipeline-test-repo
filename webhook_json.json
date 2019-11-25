@@ -9,5 +9,5 @@
         }
     ],
     "authentication": "GITHUB_HMAC",
-    "authenticationConfiguration": {"SecretToken":"secret"}
+    "authenticationConfiguration": {"SecretToken":"secrets"}
 }
