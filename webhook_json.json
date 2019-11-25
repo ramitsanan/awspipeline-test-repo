@@ -1,0 +1,8 @@
+{"webhook": 
+    {"name": "my-webhook",
+     "targetPipeline": "pipeline_name",
+     "targetAction": "source_action_name",
+     "authentication": "GITHUB_HMAC",
+     "authenticationConfiguration": {"SecretToken":"secret"}
+    }
+  }
